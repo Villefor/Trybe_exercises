@@ -1,0 +1,23 @@
+h1 {color: orange;
+    font-size: 65px;
+    font-family: sans-serif;
+    }
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+
+    }
+ul {text-decoration: underline;
+    line-height: 30px;
+}
+#ama {background-color: yellow;}
+#ver {background-color: red;}
+#mar {background-color: brown;
+}
+#back
+    {background-color: palegreen;}
+.list 
+    {background-color: paleturquoise;}
