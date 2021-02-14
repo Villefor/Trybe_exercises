@@ -1,0 +1,35 @@
+h1, p {font-family: monospace, sans-serif;}
+h1 {text-align: center;}
+body {background-color:#A0ADBA;}
+
+.sol,.log,.git,.htm {font-size: 20px;}
+    #unb {color: #FFEAD0;}
+
+
+
+.descri {display: inline-block;
+    width: 500px;
+    margin: -4px;
+    border: 1px solid black;
+    height: 100px;
+    
+       
+}
+.imagem {   
+    display: inline-block;
+    vertical-align: middle;
+    
+
+}
+
+#dario {
+    padding: 10px;
+    background-color: #DFFDFF;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+.lista ul li:nth-child(odd) {
+     font-family: monospace;
+     list-style:square ;
+}
