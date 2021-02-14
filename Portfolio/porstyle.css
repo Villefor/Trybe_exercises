@@ -9,9 +9,10 @@ body {background-color:#A0ADBA;}
 
 .descri {display: inline-block;
     width: 500px;
-    margin: -4px;
+    margin: 50px;
     border: 1px solid black;
     height: 100px;
+    margin-top:90px;
     
        
 }
@@ -25,11 +26,27 @@ body {background-color:#A0ADBA;}
 #dario {
     padding: 10px;
     background-color: #DFFDFF;
-    margin-left: 50px;
+    margin-left: 1-px;
     display: inline-block;
 
 }
 .lista ul li:nth-child(odd) {
      font-family: monospace;
      list-style:square ;
+}
+.conhe {
+    color:#1E3231;
+    font-size: 30px;
+
+}
+.certifi {
+    color:#1E3231;
+    font-size: 30px;
+}
+.cabe {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.cabe a {
+    color: darkgreen;
 }
