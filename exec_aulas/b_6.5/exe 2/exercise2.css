@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    header {
+        display:flex;
+        color: royalblue;
+        background-color: rgb(255, 229, 180);
+    }
+
+    .container header p {
+        opacity: 0.8;
+        text-decoration: underline orchid;
+        align-self: center;
+
+    }
+}
+
+@media screen and (min-width:601) and (max-width:801){
+    .aside-one{
+        background-color:
+    }
+}
