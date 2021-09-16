@@ -1,0 +1,51 @@
+
+body {
+    font-size: medium;
+    margin: 50px
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font: size 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    line-height: 50px;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: teal;
+        font-size: 25px;
+        margin: 30px
+    }
+    figure {
+        float: left;
+        width:50%
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    h1{
+        font-size: 60px;
+    }
+    body {
+        background-color: salmon;
+        font-size: 50px;
+        margin: 60px;
+        max-width: 1400px;
+        align-items: center;
+        justify-content: center;
+    }
+    section {
+        display:flex;
+    }
+}

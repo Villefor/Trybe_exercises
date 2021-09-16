@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="">
+        <p>Informações Pessoais</p>
+        <fieldset>
+            <label for="Person-name">Nome
+             <input type="text" name="Nome" id="Person-name" placeholder="Digite seu nome" maxlength="40" required>
+            </label>
+            <label for="Person-email">E-mail</label>
+            <input type="text" name="Email" id="Person-email" placeholder="Digite seu email" maxlength="50" required>
+            <br> <br>
+
+            <label for="Person-cpf">CPF</label>
+            <input type="text" name="ID" id="Person-cpf" placeholder="Digite seu CPF" maxlength="11" required>
+            <br> <br>
+
+            <label for="Person-endereço">Endereço</label>
+            <input type="text" name="Adress" id="Person-endereço" placeholder="Forneça seu endereço" maxlength="200" required>
+
+            <label for="Person-cidade">Cidade</label>
+            <input type="text" name="City" id="Person-cidade" placeholder="Sua cidade atual" maxlength="28" required>
+
+            <label for="estados">UF:
+                <select name="states" id="estados"></select>
+            </label>
+            <br> <br>
+
+            <label for="Person-place">Cidade</label>
+            <input type="radio" name="Residence" id="Person-place" value="Casa" maxlength="28" required checked>
+
+            <label for="Person-place2">Cidade</label>
+            <input type="radio" name="Residence" id="Person-place2" value="Apartamento" maxlength="28" required>
+        </fieldset>
+
+        <fieldset>
+            <label for="textArea">Currículo
+              <textarea name="text" id="textArea" cols="30" rows="10" maxlength="1000"></textarea>
+            </label>
+            <br> <br>
+
+            <label for="Person-profession">Cargo</label>
+            <input type="text" name="Job" id="Person-profession" value="Job" maxlength="40" required>
+            <br> <br>
+
+            <label for="textArea2">Job description
+              <textarea name="text2" id="textArea2" cols="30" rows="10" maxlength="500"></textarea>
+            </label>
+            <br> <br>
+
+            <label for="date"></label>
+            <input type="date" name="Data" id="date">
+        </fieldset>
+
+
+        <script src="script.js"></script>
+    </form>
+
+</body>
+</html>
